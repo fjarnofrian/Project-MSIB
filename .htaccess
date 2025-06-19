@@ -1,0 +1,3 @@
+<IfModule mod_rewrite,c>
+RewriteEngine OnRewriteRule ^(.*)$ public/$1 [L]
+</IdModule>
